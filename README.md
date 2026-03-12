@@ -114,7 +114,7 @@ SERVICE2_EMAIL='["email1@example.com"]'
 ADMIN_EMAIL='["email3@example.com","email2@example.com"]'
 
 # Database
-DATABASE_URL=postgresql://user:password@host:port/database
+DATABASE_URL=postgresql://user:password@host:port/database?sslmode=verify-full"
 ```
 
 ---
